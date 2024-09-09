@@ -1,0 +1,122 @@
+body {
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+}
+
+img {
+    width: 400px;
+    border-radius: 5px;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: forestgreen
+}
+
+.main {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    background-color: #8a9a5b;
+    margin-top: 10px;
+    border-radius: 10px;
+    color: #43453e;
+    font-size: 10px;
+}
+
+h1 {
+    color: black;
+}
+.simple {
+    padding: 10px;
+}
+
+.simple h1 {
+    font-size: 25px;
+}
+
+
+.preparation {
+    background-color: #a4b080;
+    width: 100%;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.preparation h2 {
+    font-size: 17px;
+    font-weight: 900;
+    padding-left: 20px;
+}
+
+.preparation p {
+    font-size: 15px;
+}
+
+.preparation > ul > li {
+    line-height: 1.5rem;
+    padding-left: 10px;
+}
+
+.ingredients {
+    width: 100%;
+    border-bottom: 1px solid #dcdbce;
+    padding: 10px;
+}
+
+.ingredients h2{
+    font-size: 20px;   
+}
+
+.ingredients li {
+    padding: 5px;
+    margin-left: -25px;
+}
+.instruction {
+    border-bottom: 1px solid #dcdbce;
+    padding: 10px;
+    margin-top: -20px;
+    
+}
+
+.instruction h2{
+    font-size: 20px;
+}
+
+.instruction li {
+    padding: 5px;
+    margin-left: -25px;
+}
+
+.nutrition {
+    width: 100%;
+    margin-top: -10px;
+}
+.nutrition h2 {
+    font-size: 20px;
+}
+
+.nutrition div {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #dcdbce;
+    padding: 10px;
+    position: relative;
+}
+
+.right {
+   
+    font-weight: 700;
+    position: absolute;
+    left: 250px;
+}
+
